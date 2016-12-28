@@ -23,3 +23,6 @@ chmod 777 ShareDriver
 ./ShareDriver
 ```
 4.在浏览器中通过 http://IP地址:5020 进行访问.
+
+
+![image](https://raw.githubusercontent.com/sunshine4me/ShareDevicePublish/win10-x64/download.png)
