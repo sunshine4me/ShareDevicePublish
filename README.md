@@ -13,7 +13,7 @@
 
 **如果是win7的话 需要先安装c++支持库 ,在下载的文件中有 "vc_redist.x64.exe" 这个文件.**
 
-2.运行 ShareDriver.exe
+2.运行 ShareDevice.exe
 
 3.在浏览器中通过 http://IP地址:5020 进行访问.
 
@@ -40,10 +40,10 @@ ln -s /usr/local/opt/openssl/lib/libssl.1.0.0.dylib /usr/local/lib/
 
 4.对执行文件赋权限
 ```
-chmod 777 ShareDriver
+chmod 777 ShareDevice
 ```
 5.运行程序
 ```
-./ShareDriver
+./ShareDevice
 ```
 6.在浏览器中通过 http://IP地址:5020 进行访问.
