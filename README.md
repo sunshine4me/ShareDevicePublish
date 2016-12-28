@@ -9,6 +9,9 @@
 ## windows 使用说明
 1.下载相应的执行软本.
 
+![image](https://raw.githubusercontent.com/sunshine4me/ShareDevicePublish/win10-x64/download.png)
+
+
 2.运行 ShareDriver.exe
 
 3.在浏览器中通过 http://IP地址:5020 进行访问.
@@ -31,6 +34,9 @@ ln -s /usr/local/opt/openssl/lib/libssl.1.0.0.dylib /usr/local/lib/
 
 3.下载相应的执行软本
 
+![image](https://raw.githubusercontent.com/sunshine4me/ShareDevicePublish/win10-x64/download.png)
+
+
 4.对执行文件赋权限
 ```
 chmod 777 ShareDriver
@@ -42,4 +48,3 @@ chmod 777 ShareDriver
 6.在浏览器中通过 http://IP地址:5020 进行访问.
 
 
-![image](https://raw.githubusercontent.com/sunshine4me/ShareDevicePublish/win10-x64/download.png)
