@@ -1,6 +1,6 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v1.0/osx.10.11-x64",
+    "name": ".NETCoreApp,Version=v1.0/osx.10.12-x64",
     "signature": "f0ae295c9cd3569bbe40029b7031d27fdd8cc0f0"
   },
   "compilationOptions": {
@@ -2844,7 +2844,7 @@
         }
       }
     },
-    ".NETCoreApp,Version=v1.0/osx.10.11-x64": {
+    ".NETCoreApp,Version=v1.0/osx.10.12-x64": {
       "ShareDevice/1.0.0": {
         "dependencies": {
           "BundlerMinifier.Core": "2.2.306",
