@@ -15,17 +15,31 @@
 
 
 ## mac/linux 使用说明
-1.下载相应的执行软本
 
-2.对执行文件赋权限
+1. 安装homeBrew
+```
+curl -LsSf http://github.com/mxcl/homebrew/tarball/master | sudo tar xvz -C/usr/local --strip 1
+```
+
+2. 安装openssl
+```
+brew install openssl
+ln -s /usr/local/opt/openssl/lib/libcrypto.1.0.0.dylib /usr/local/lib/
+ln -s /usr/local/opt/openssl/lib/libssl.1.0.0.dylib /usr/local/lib/
+```
+
+
+3.下载相应的执行软本
+
+4.对执行文件赋权限
 ```
 chmod 777 ShareDriver
 ```
-3.运行程序
+5.运行程序
 ```
 ./ShareDriver
 ```
-4.在浏览器中通过 http://IP地址:5020 进行访问.
+6.在浏览器中通过 http://IP地址:5020 进行访问.
 
 
 ![image](https://raw.githubusercontent.com/sunshine4me/ShareDevicePublish/win10-x64/download.png)
