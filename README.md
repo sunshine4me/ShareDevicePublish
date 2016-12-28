@@ -6,25 +6,26 @@
 
 
 ![image](https://raw.githubusercontent.com/sunshine4me/ShareDevicePublish/win10-x64/help.gif)
+
 ## windows 使用说明
 1.下载相应的执行软本.
-
 ![image](https://raw.githubusercontent.com/sunshine4me/ShareDevicePublish/win10-x64/download.png)
 
+**如果是win7的话 需要先安装c++支持库 ,在下载的文件中有 "vc_redist.x64.exe" 这个文件.**
 
 2.运行 ShareDriver.exe
 
 3.在浏览器中通过 http://IP地址:5020 进行访问.
 
 
-## mac/linux 使用说明
-
+## mac 使用说明
 1. 安装homeBrew
 ```
 curl -LsSf http://github.com/mxcl/homebrew/tarball/master | sudo tar xvz -C/usr/local --strip 1
 ```
 
 2. 安装openssl
+
 ```
 brew install openssl
 ln -s /usr/local/opt/openssl/lib/libcrypto.1.0.0.dylib /usr/local/lib/
@@ -46,5 +47,3 @@ chmod 777 ShareDriver
 ./ShareDriver
 ```
 6.在浏览器中通过 http://IP地址:5020 进行访问.
-
-
