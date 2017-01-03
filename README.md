@@ -24,7 +24,7 @@
 
 **如果是win7的话 需要先安装c++支持库 ,在下载的文件中有 "vc_redist.x64.exe" 这个文件.**
 
-**如果发生 Failed to load the dll from [C:\Program Files\dotnet\host\fxr\1.0.1\hostfxr.dll] 错误,  请安装系统补丁 https://support.microsoft.com/en-us/kb/2533623  **
+**如果发生 Failed to load the dll from [C:\Program Files\dotnet\host\fxr\1.0.1\hostfxr.dll] 错误,  请安装系统补丁 https://support.microsoft.com/en-us/kb/2533623**
 
 
 3.在浏览器中通过 http://电脑IP:5020 进行访问.
