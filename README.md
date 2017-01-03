@@ -1,4 +1,4 @@
-# ShareDevicePublish
+# ShareDevice
 
 一个轻量级的安卓设备共享程序.
 特点:
