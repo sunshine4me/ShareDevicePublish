@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0/osx.10.11-x64",
-    "signature": "f0ae295c9cd3569bbe40029b7031d27fdd8cc0f0"
+    "signature": "6ade13799aac5b73aafa698bf1d8f2de9594bfea"
   },
   "compilationOptions": {
     "defines": [
@@ -34,7 +34,8 @@
           "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.1.0",
           "Microsoft.AspNetCore.WebSockets": "1.0.0",
           "System.Text.Encoding.CodePages": "4.3.0",
-          "Devices": "1.0.0"
+          "Devices": "1.0.0",
+          "ImageSharp": "1.0.0-alpha-000335"
         },
         "compile": {
           "ShareDevice.dll": {}
@@ -48,6 +49,31 @@
         },
         "compile": {
           "lib/netcoreapp1.0/dotnet-bundle.dll": {}
+        }
+      },
+      "ImageSharp/1.0.0-alpha-000335": {
+        "dependencies": {
+          "System.Buffers": "4.3.0",
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.Tools": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.IO.Compression": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Numerics.Vectors": "4.3.0",
+          "System.ObjectModel": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Runtime.Numerics": "4.3.0",
+          "System.Text.Encoding.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0",
+          "System.Threading.Tasks.Parallel": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/ImageSharp.dll": {}
         }
       },
       "Libuv/1.9.1": {
@@ -2865,7 +2891,8 @@
           "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.1.0",
           "Microsoft.AspNetCore.WebSockets": "1.0.0",
           "System.Text.Encoding.CodePages": "4.3.0",
-          "Devices": "1.0.0"
+          "Devices": "1.0.0",
+          "ImageSharp": "1.0.0-alpha-000335"
         },
         "runtime": {
           "ShareDevice.dll": {}
@@ -2879,6 +2906,31 @@
         },
         "runtime": {
           "lib/netcoreapp1.0/dotnet-bundle.dll": {}
+        }
+      },
+      "ImageSharp/1.0.0-alpha-000335": {
+        "dependencies": {
+          "System.Buffers": "4.3.0",
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.Tools": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.IO.Compression": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Numerics.Vectors": "4.3.0",
+          "System.ObjectModel": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Runtime.Numerics": "4.3.0",
+          "System.Text.Encoding.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0",
+          "System.Threading.Tasks.Parallel": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.1/ImageSharp.dll": {}
         }
       },
       "Libuv/1.9.1": {
@@ -5792,6 +5844,11 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-3MhXe3qLroL+Fe4Uo/7cmtYQ3YPjSHIjfuHxpewVZUdU4mh73wLEKAgf9rr3OLTuEXCbJr8bOBdwjuNwfGR8qw=="
+    },
+    "ImageSharp/1.0.0-alpha-000335": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a2Ouyu8TjXF0MQdJHrPiifgzamXNcaHUdPOvDUl3isWKasXyRBtFnGmUOqJdV/wEMcc1KtEPNG/V6/p/fbEXkQ=="
     },
     "Libuv/1.9.1": {
       "type": "package",
